@@ -5,7 +5,11 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
-            Console.ReadLine();
+            Console.ReadKey();
+
+            float someFloat = 3.14f;
+            Console.WriteLine(someFloat.ToString("0.000"));
+            Console.ReadKey();
         }
     }
 }
